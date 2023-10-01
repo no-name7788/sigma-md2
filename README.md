@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/github/forks/Maher-Zubair/SIGMA-MD?label=Fork&style=social">
     
     
-  <a href="https://github.com/Maher-Zubair/SIGMA-MD/stargazers">
+  <a href="https://github.com/Maher-Zubair/SIGMA-MD/stargazers"> 
     <img src="https://img.shields.io/github/stars/Maher-Zubair?style=social">
   </a>
 

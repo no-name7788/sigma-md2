@@ -6,7 +6,7 @@
   "success_url": "/",
   "stack": "container",
 "env": {
-  "OWNER_NAME": {
+  "OWNER_NAME": { 
   "description": "Name of Bot Owner",
       "value": "Maher Zubair"
   },
