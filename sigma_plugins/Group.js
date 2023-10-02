@@ -1392,7 +1392,7 @@ Module_Exports({
 ┃✗ •ʟᴇᴠᴇʟ• ${sck1.level}🍭
 ┃✗ •ᴇxᴘ• ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ┃✗ •ʀᴏʟᴇ• *${role}*
-┗━━━━━━━━━━⦿ `   }, { quoted: citel });
+┗━━━━━━━━━━⦿\n ${name.caption}`   }, { quoted: citel });
 		    }
 	    }
 	})
