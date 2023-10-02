@@ -4,8 +4,8 @@
     "theme": "SIGMA_MD",
     "LANGUAGE": "English",
     "LANGCODE": "en",
-    "STRINGS": { 
-        "updater": { 
+    "STRINGS": {
+        "updater": {
             "UPDATE": "*_Your bot is Already up-to-date_*",
             "NEW_UPDATE": "*it's time to update the bot!*\n*Changes:*\n",
             "UPDATED_LOCAL": "*Updated Successfully !*"

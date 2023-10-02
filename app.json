@@ -35,9 +35,9 @@
      "value": "true"
     },
 "AUTO_READ_STATUS": {
-    "description": "Fill the value false if you not want bot view your Statuses.",
+    "description": "Fill the value true if you  want bot view your Statuses. and send them in your inbox",
      "required" :false,
-     "value": "true"
+     "value": "false"
     },
 "MSGS_IN_LOG": {
     "description": "Fill the value true if you want to see Messages in Console.",
@@ -55,8 +55,8 @@
      "required" :false
     },
 "ALWAYS_ONLINE": {
-    "description": "Take it 'false' if you not wanna show Always Onlline on whatsapp",
-      "value": "true",
+    "description": "Take it 'true' if you  wanna show Always Onlline on whatsapp",
+      "value": "false",
      "required" :false
     },
       "PREFIX": {
@@ -77,7 +77,7 @@
   },
   "WELCOME_MESSAGE": {
     "description": "Enter the message here which you want to see when a new user joins a Group.",
-       "value": "@pp\n*_Hey Dear_* @user\n*_Welcome In_* @gname\n*_Read Description CareFully_* @gdesc\n\n*_Support ME By Subscribing_* https://www.youtube.com/@InnoxentTech\n",
+       "value": " @pp *_HI Dear @user_*\n*_Welcome In ♥️ @gname_*\n*_Read The Description CareFully_*\n\n\n*_Support Me By Subscribing_*\n*_https://www.youtube.com/@InnoxentTech_*",
        "required" :false
   },
   "MONGODB_URI": {
@@ -127,11 +127,6 @@
   "description": "Add Your Own Bot Name",
    "value": "sɪɢᴍᴀ ᴹᴰ"
     
-},
-"ANTI_BAD_WORD": {
-  "description": "Add Bad Words ",
-   "value": "nobadwordokey",
-    "required": false
 },
 "REMOVE_BG_KEY": {
   "description": "Add The RemoveBg Api Key.Git New APi Key From remove.bg",

@@ -84,10 +84,10 @@ mongodb+srv://Maher-Zubair:SIGMA-MD@zubi.9g6b16y.mongodb.net/?retryWrites=true&w
 ### `𝘚𝘱𝘦𝘤𝘪𝘢𝘭 𝘛𝘩𝘢𝘯𝘬𝘴 𝘛𝘰`
 - ***[Suhail Tech Info](https://github.com/SuhailTechInfo)***
 - ***[Diegoson Tech](https://github.com/DiegosonTech)***
-- ***[Sam](https://github.com/SamPandey001)***
+- ***[Sam Pandey](https://github.com/SamPandey001)***
 ##
 ## ```𝘓𝘦𝘨𝘢𝘭 𝘋𝘪𝘴𝘤𝘭𝘢𝘪𝘮𝘦𝘳```
-- *I will only Assit You in Bot Deployment and Hosting, Not in Bot Development*
+- *I will only Assist You in Bot Deployment and Hosting, Not in Bot Development*
 - *If You Modify The Bot And Face Any Issue, I will not Responsible Because It is not Possible For Me To Help Everyone*
 - *This Bot is For Fun and Educational Purpose, I will not Responsible If You Spam and Misuse It*
 - ***Regards [Maher-Zubair](https://github.com/Maher-Zubair)***
