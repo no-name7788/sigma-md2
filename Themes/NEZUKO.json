@@ -10,7 +10,7 @@
             "NEW_UPDATE": "*it's time to update the bot!*\n*Changes:*\n",
             "UPDATED_LOCAL": "*Updated Successfully !*"
         },
-        "global": {
+        "global": { 
             "botName": " SIGMA-MD",
             "body": "whatsapp Bot",
             "greet2" : "Thanks To Maher Zubair",

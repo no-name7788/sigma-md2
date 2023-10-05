@@ -20,9 +20,8 @@
 	 "required" :true 
     },
 "HEROKU_APP_NAME": {
-    "description": "Put Your Heroku App Name Here",
-     "value": "",
-	"required" :false
+    "description": "Put Your Heroku App Name Here. Same as Above",
+     "value": ""
     },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",

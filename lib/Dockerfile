@@ -1,4 +1,4 @@
-FROM quay.io/suhailtechinfo/suhail-v2
+FROM quay.io/maherzubair/sigma-md:beta
 RUN git clone https://github.com/Maher-Zubair/SIGMA-MD /root/Maher-Zubair/SIGMA-MD
 WORKDIR /root/Maher-Zubair/SIGMA-MD/
 RUN npm install npm@latest
