@@ -27,9 +27,9 @@
  <a href="https://github.com/Maher-Zubair/SIGMA-MD/blob/main/LICENCE">
 <img src='https://img.shields.io/github/license/Maher-Zubair/SIGMA-MD?color=%231e81b0&style=for-the-badge' width="143px">
 <p align="center"> 
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/JM1yBMlveulDrAN22jHcWV" target="_blank">
+  <a aria-label="Join our chats" href="https://chat.whatsapp.com/CmY0THcJCUYEGxLJulhcRV" target="_blank">
    <img alt="whatsapp" src="https://img.shields.io/badge/Support Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-    <a aria-label="Join our chats" href="https://chat.whatsapp.com/CkWgmF0ykS33Lzi55T5XlY" target="_blank">
+    <a aria-label="Join our chats" href="https://chat.whatsapp.com/KFe2GEMBZ9eI1bpNVotZOW" target="_blank">
    <img alt="whatsapp" src="https://img.shields.io/badge/Public Bot Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <p align="center"><img src="https://profile-counter.glitch.me/{Maher-Zubair}/count.svg" alt="Maher-Zubair :: Visitor's Count" /></p>
@@ -51,14 +51,15 @@
 
 
 ## `𝘋𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵 𝘔𝘦𝘵𝘩𝘰𝘥𝘴`
-1. ***Click [`FORK`](https://github.com/Maher-Zubair/SIGMA-MD/fork) And `Star⭐ The Repository`***
-2. ***Get SESSION ID  by [`Scanning QR Code`](https://replit.com/@Mehar-Zubair/SIGMA-MD?v=1). `Whatapp>Three dots>Linked Devices`***
-3. ***Get a Mongodb url From [`Mongodb,`](https://account.mongodb.com/)  Watch Tutorial  [`How To Get MongoDB Url`](https://youtu.be/HNj76uDT-uc?si=ObIoNZoP5gSZ8bSF).***
-4. ***Deploy on [`Heroku,`](http://lnkiy.in/SIGMA-MD-heroku-deploy)  Watch Tutorial 
+1. ***Star⭐ The Repository First***
+2. ***Click [`FORK`](https://github.com/Maher-Zubair/SIGMA-MD/fork)***
+3. ***Get SESSION ID  by [`Scanning QR Code`](https://replit.com/@Mehar-Zubair/SIGMA-MD?v=1). `Whatapp>Three dots>Linked Devices`***
+4. ***Get a Mongodb url From [`Mongodb,`](https://account.mongodb.com/)  Watch Tutorial  [`How To Get MongoDB Url`](https://youtu.be/HNj76uDT-uc?si=ObIoNZoP5gSZ8bSF).***
+5. ***Deploy on [`Heroku,`](http://lnkiy.in/SIGMA-MD-DEPLOY)  Watch Tutorial 
  [`How To Deploy on Heroku`](https://youtu.be/7hhuzIkhVfE).***
-5. ***Deploy FREE on `Codespace,`  Watch Tutorial  [`How To Deploy on Codespace`](https://youtu.be/q59Fyn0Dq_k)***
-6. ***Deploy on [`Replit,`](https://replit.com/github/Maher-Zubair/SIGMA-MD)  Watch Tutorial  [`How To Deploy on Replit`](https://youtu.be/Ax4nO5PIHFA).***
-7. ***Install [`External Plugins`](https://github.com/Maher-Zubair/SIGMA-MD_Plugins).***
+6. ***Deploy FREE on `Codespace,`  Watch Tutorial  [`How To Deploy on Codespace`](https://youtu.be/q59Fyn0Dq_k)***
+7. ***Deploy on [`Replit,`](https://replit.com/github/Maher-Zubair/SIGMA-MD)  Watch Tutorial  [`How To Deploy on Replit`](https://youtu.be/Ax4nO5PIHFA).***
+8. ***Install [`External Plugins`](https://github.com/Maher-Zubair/SIGMA-MD_Plugins).***
 ##
 
 - ***If You Don't Have Any MongoDB Url Then, Use This Public one.!***
