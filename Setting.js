@@ -2,7 +2,7 @@ const fs = require('fs-extra')
 if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/config.env' })
 
 
-//═══════[Required Variables]════════,[Make sure you put all values in "" , '' ]\\
+//═══════[Required Variables]════════,[Make sure you put all values in "" , '']\\
 global.owner = process.env.OWNER_NUMBER || '923466319114' ; // Add Your Number without +
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Maher-Zubair:SIGMA-MD@zubi.9g6b16y.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp" ; // put mongodb key here
 global.port=5000  ;
@@ -19,9 +19,10 @@ global.sudo =  process.env.SUDO || "923466319114" ; // Do not change it
 global.devs = "923466319114"; //Dont change it From here
 global.mztit = process.env.MZTIT ||"🅼♥︎❚❚♥︎🆉", // add your title here
 global.Gname = process.env.GNAME ||"sɪɢᴍᴀ ᴹᴰ-sᴜᴘᴘᴏʀᴛ",
-global.waUrl = process.env.WAURL ||"https://chat.whatsapp.com/JM1yBMlveulDrAN22jHcWV",
+global.zyt = process.env.ZYT || 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1',
+global.waUrl = process.env.WAURL ||"https://chat.whatsapp.com/CmY0THcJCUYEGxLJulhcRV",
 global.website = 'http://lnkiy.in/SIGMA-MD-WEB' ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/2ca599cf20ac50ba941f6.jpg' ;
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6e2057568db8926.jpg' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || '',      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'sɪɢᴍᴀ ᴹᴰ',  // add the botname you want
@@ -49,7 +50,7 @@ module.exports = {
   caption :process.env.CAPTION || "\t*⤹★ᴘᴏᴡᴇʀᴇᴅ ʙʏ★⤸ sɪɢᴍᴀ ᴹᴰ* ",   //*『sᴜʙsᴄʀɪʙᴇ • ɪɴɴᴏxᴇɴᴛ ᴛᴇᴄʜ』https://www.youtube.com/@InnoxentTech,
   promote_demote_messages : process.env.PROMOTE_DEMOTE_MESSAGES || 'true' ,
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' , // add your openai key if you have it
-  VERSION: process.env.VERSION || '𝚅.𝟷.𝟶.𝟶',
+  VERSION: process.env.VERSION || '𝚅.𝟷.𝟸.𝟽',
   LANG: process.env.THEME|| 'SIGMA_MD',
   menu : process.env.MENU || '', // Not Available in current Version
   WORKTYPE: process.env.WORKTYPE || 'public' // if private only you can use your bot, if public everyone use your bot

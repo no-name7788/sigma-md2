@@ -39,10 +39,11 @@
 1. ***Game Menu.***
 2.  ***Multi-Themes Supported.***
 3.  ***Huge Logo Maker Menu.***
-4.  ***Photo Editor Menu.***
-5.  ***Ban Protection.***
-6.  ***Multi-Device Supported.***
-7.  ***350+ Commands.***
+4. ***Group Management Commands.***
+5.  ***Photo Editor Menu.***
+6.  ***Ban Protection.***
+7.  ***Multi-Device Supported.***
+8.  ***350+ Commands.***
 ##
 
 

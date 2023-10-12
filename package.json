@@ -1,6 +1,6 @@
 {
           "name": "SIGMA-MD",
-          "version": "1.0.0",
+          "version": "1.2.7",
           "description": "SIGMA-MD A Whatsapp Bot By Maher Zubair",
           "main": "lib/client.js",
           "type": "commonjs",

@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   MULTI-DEVICE WHATSAPP BOT                                          //
 //                                                                                                      //
-//                                         v：1．0．0                                                   // 
+//                                            𝚅.𝟷.𝟸.𝟽                                                   // 
 //                                                                                                      //
 //              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
 //              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
@@ -102,35 +102,7 @@ Module_Exports({
  async(bot,man,text) => {
 
 
-  let sigma_lists = `
-┏━━⟪⟪ ${mztit} ⟫━⦿       
-┃✗ *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴀᴛᴇɢᴏʀɪᴇs*
-┃✗ ᴍɪsᴄ
-┃✗ ᴀɴɪᴍᴇ ᴘɪᴄs
-┃✗ ᴀᴜᴅɪᴏ
-┃✗ ᴄᴏɴᴠᴇʀᴛᴇʀ
-┃✗ sᴛɪᴄᴋᴇʀ
-┃✗ ɢʀᴏᴜᴘ
-┃✗ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
-┃✗ ᴇᴄᴏɴᴏᴍʏ
-┃✗ ꜰᴜɴ
-┃✗ ɢᴀᴍᴇ
-┃✗ ᴀɪ
-┃✗ ᴅᴇᴠᴇʟᴏᴘᴇʀ
-┃✗ ᴛᴏᴏʟs
-┃✗ ɢᴇɴᴇʀᴀʟ
-┃✗ ᴏᴡɴᴇʀ 
-┃✗ ʟᴏɢᴏ 
-┃✗ ᴍᴇᴅɪᴀ
-┃✗ ᴜsᴇʀ 
-┃✗ sᴇᴀʀᴄʜ
-┃✗ ᴘɪᴄ ᴇᴅɪᴛᴏʀ
-┃✗ ʀᴇᴀᴄᴛɪᴏɴs
-┃✗ ᴡᴀʟʟᴘᴀᴘᴇʀs
-┃✗ *${prefix}list Category Name*
-┃✗ *To See Its Commands*
-┃✗ *${prefix}list developer*
-┗━━━━━━━━━━⦿        `
+  let sigma_lists = `${scate}\n${name.caption}`
     
     
           let lists = 
@@ -152,52 +124,55 @@ Module_Exports({
   kingclass: "developer",
   use:""
 },
-async(bot, citel, {isCreator}) => {
- const _0x169e7f=_0x5514;(function(_0x136229,_0x267961){const _0x504221=_0x5514,_0x284125=_0x136229();while(!![]){try{const _0x71f82c=-parseInt(_0x504221(0x19d))/0x1+parseInt(_0x504221(0x197))/0x2+-parseInt(_0x504221(0x181))/0x3*(parseInt(_0x504221(0x193))/0x4)+-parseInt(_0x504221(0x17d))/0x5+parseInt(_0x504221(0x198))/0x6*(-parseInt(_0x504221(0x1a3))/0x7)+parseInt(_0x504221(0x180))/0x8+parseInt(_0x504221(0x189))/0x9;if(_0x71f82c===_0x267961)break;else _0x284125['push'](_0x284125['shift']());}catch(_0x3475c9){_0x284125['push'](_0x284125['shift']());}}}(_0x2780,0xb5857));const _0x2c943a=(function(){let _0x2bb104=!![];return function(_0x3cb0a7,_0x1f06b3){const _0x17bfdd=_0x2bb104?function(){const _0xdf6464=_0x5514;if(_0x1f06b3){const _0x419a43=_0x1f06b3[_0xdf6464(0x191)](_0x3cb0a7,arguments);return _0x1f06b3=null,_0x419a43;}}:function(){};return _0x2bb104=![],_0x17bfdd;};}()),_0x34bd0b=_0x2c943a(this,function(){const _0x642864=_0x5514;return _0x34bd0b['toString']()[_0x642864(0x19f)](_0x642864(0x17b))['toString']()['constructor'](_0x34bd0b)[_0x642864(0x19f)]('(((.+)+)+)+$');});function _0x2780(){const _0x5b5f07=['forks_count','\x20⟫━⦿\x0a┃✗\x20*_•sᴛᴀʀs•_*\x20','ᴛᴀᴘ\x20ʜᴇʀᴇ\x20ꜰᴏʀ\x20ʀᴇᴘᴏ','console','constructor','apply','toString','120qMAmjw','log','get','https://github.com/Maher-Zubair/SIGMA-MD','1015190EQNojQ','588bAIJDC','\x20sᴛᴀʀs\x0a┃✗\x20*_•ꜰᴏʀᴋs•_*\x20','┏━━⟪⟪\x20','__proto__','error','1060927QuYlDP','return\x20(function()\x20','search','https://api.github.com/repos/Maher-Zubair/SIGMA-MD','warn','chat','90447binuiN','(((.+)+)+)+$','info','1389410LxdvGl','send','*_The\x20Repo\x20is\x20Private\x20or\x20It\x20is\x20Not\x20Available\x20at\x20The\x20Moment_*','9418808LvgkiK','55512GgZAfY','toFixed','sɪɢᴍᴀ\x20ᴹᴰ-ʀᴇᴘᴏ','sendMessage','\x20ᴍs\x20\x0a┃✗\x20*_•ᴠᴇʀsɪᴏɴ•_*\x20sɪɢᴍᴀ\x0a┃✗\x20*_•ᴅᴇᴠᴇʟᴏᴘᴇʀ•_*\x20ᴍ\x20ᴢᴜʙᴀɪʀ\x0a┃✗\x20*_•ɢɪᴛ•_*\x0ahttps://github.com/Maher-Zubair/SIGMA-MD\x0a┗━━━━━━━━━━⦿','stargazers_count','bind','exception','19968768flEuYT','trace','prototype'];_0x2780=function(){return _0x5b5f07;};return _0x2780();}_0x34bd0b();const _0x422eed=(function(){let _0x235707=!![];return function(_0x1e79f3,_0x273eb3){const _0x53c65d=_0x235707?function(){const _0x1f652d=_0x5514;if(_0x273eb3){const _0x44ede6=_0x273eb3[_0x1f652d(0x191)](_0x1e79f3,arguments);return _0x273eb3=null,_0x44ede6;}}:function(){};return _0x235707=![],_0x53c65d;};}()),_0x29040c=_0x422eed(this,function(){const _0x4e066d=_0x5514;let _0x514225;try{const _0x4c99b3=Function(_0x4e066d(0x19e)+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x514225=_0x4c99b3();}catch(_0xe4043b){_0x514225=window;}const _0xc7d845=_0x514225[_0x4e066d(0x18f)]=_0x514225[_0x4e066d(0x18f)]||{},_0xb2ce2e=[_0x4e066d(0x194),_0x4e066d(0x1a1),_0x4e066d(0x17c),_0x4e066d(0x19c),_0x4e066d(0x188),'table',_0x4e066d(0x18a)];for(let _0x352270=0x0;_0x352270<_0xb2ce2e['length'];_0x352270++){const _0x37f265=_0x422eed[_0x4e066d(0x190)][_0x4e066d(0x18b)][_0x4e066d(0x187)](_0x422eed),_0x44929b=_0xb2ce2e[_0x352270],_0x5c52fb=_0xc7d845[_0x44929b]||_0x37f265;_0x37f265[_0x4e066d(0x19b)]=_0x422eed['bind'](_0x422eed),_0x37f265[_0x4e066d(0x192)]=_0x5c52fb[_0x4e066d(0x192)][_0x4e066d(0x187)](_0x5c52fb),_0xc7d845[_0x44929b]=_0x37f265;}});_0x29040c(),timestampe=speed(),latensie=speed()-timestampe;function _0x5514(_0x4d4b8d,_0x533cb3){const _0x4eef00=_0x2780();return _0x5514=function(_0x29040c,_0x422eed){_0x29040c=_0x29040c-0x17b;let _0x2514d8=_0x4eef00[_0x29040c];return _0x2514d8;},_0x5514(_0x4d4b8d,_0x533cb3);}try{let {data}=await axios[_0x169e7f(0x195)](_0x169e7f(0x1a0)),cap=_0x169e7f(0x19a)+mztit+_0x169e7f(0x18d)+data[_0x169e7f(0x186)]+_0x169e7f(0x199)+data[_0x169e7f(0x18c)]+'\x20ꜰᴏʀᴋs\x0a┃✗\x20*_•sᴘᴇᴇᴅ•_*\x20'+latensie[_0x169e7f(0x182)](0x4)+_0x169e7f(0x185),Maher_Zubair_repo={'image':{'url':await botpic()},'caption':cap,'headerType':0x4,'footer':tlang()['footer'],'contextInfo':{'externalAdReply':{'title':_0x169e7f(0x183),'body':_0x169e7f(0x18e),'renderLargerThumbnail':!![],'thumbnailUrl':'','thumbnail':log0,'mediaType':0x4,'mediaUrl':'','sourceUrl':_0x169e7f(0x196)}}};await bot[_0x169e7f(0x184)](citel[_0x169e7f(0x1a2)],Maher_Zubair_repo,{'quoted':citel});}catch(_0xfae8f3){citel[_0x169e7f(0x17e)](_0x169e7f(0x17f));}
+async(bot, citel) => {
+const _0x17a2f2=_0x21e6;(function(_0x9ca8c8,_0x29263d){const _0x289e2e=_0x21e6,_0x31e213=_0x9ca8c8();while(!![]){try{const _0x36bfa1=parseInt(_0x289e2e(0x20f))/(-0x20cf+-0xd69*0x1+0x2e39)*(-parseInt(_0x289e2e(0x1f8))/(0x188f*0x1+-0x1a6c+0x1*0x1df))+-parseInt(_0x289e2e(0x216))/(0x14e2+-0x11a9+-0x112*0x3)*(parseInt(_0x289e2e(0x1fa))/(-0x16dd+0x17d*0x3+-0x126a*-0x1))+parseInt(_0x289e2e(0x203))/(-0x1475+0x60c+0xe6e)+parseInt(_0x289e2e(0x214))/(-0xb0*0x8+-0x6e3*0x1+-0x423*-0x3)*(-parseInt(_0x289e2e(0x1ed))/(-0x13*-0x10f+-0x3*0x73b+0x19b*0x1))+-parseInt(_0x289e2e(0x20e))/(-0x805+-0x1*0x1e01+-0x2*-0x1307)+parseInt(_0x289e2e(0x1f5))/(0xa3*0x13+0x20ed+0x417*-0xb)+parseInt(_0x289e2e(0x221))/(-0x3a*-0x89+0x10b5+0xb1*-0x45)*(parseInt(_0x289e2e(0x1f4))/(-0x3*0x778+0x45e+0x1215));if(_0x36bfa1===_0x29263d)break;else _0x31e213['push'](_0x31e213['shift']());}catch(_0x4e7a8d){_0x31e213['push'](_0x31e213['shift']());}}}(_0x76ee,0x84b*0xff+0x96f42+-0xd*0x6161),timestampe=speed(),latensie=speed()-timestampe);try{let {data}=await axios[_0x17a2f2(0x229)](_0x17a2f2(0x217)+_0x17a2f2(0x215)+_0x17a2f2(0x224)+_0x17a2f2(0x1fc)+_0x17a2f2(0x211)),cap=_0x17a2f2(0x219)+mztit+(_0x17a2f2(0x209)+_0x17a2f2(0x202))+data[_0x17a2f2(0x20a)+_0x17a2f2(0x1ef)]+(_0x17a2f2(0x1f7)+_0x17a2f2(0x1ee))+data[_0x17a2f2(0x21a)+'t']+(_0x17a2f2(0x1f1)+_0x17a2f2(0x20b))+latensie[_0x17a2f2(0x1fe)](-0x3*-0xa03+-0x26*-0xab+-0x3767)+(_0x17a2f2(0x1fb)+_0x17a2f2(0x21e)+_0x17a2f2(0x208)+_0x17a2f2(0x21d)+_0x17a2f2(0x1f2)+_0x17a2f2(0x218)+_0x17a2f2(0x225)+_0x17a2f2(0x200)+_0x17a2f2(0x1f3)+_0x17a2f2(0x1f0)+_0x17a2f2(0x1f9)+_0x17a2f2(0x1fd)+_0x17a2f2(0x220)+_0x17a2f2(0x21b)+_0x17a2f2(0x212)+_0x17a2f2(0x213)+_0x17a2f2(0x228)+_0x17a2f2(0x201)+_0x17a2f2(0x20d))+scap,Maher_Zubair_repo={'image':{'url':await botpic()},'caption':cap,'headerType':0x4,'footer':tlang()[_0x17a2f2(0x20c)],'contextInfo':{'externalAdReply':{'title':_0x17a2f2(0x222)+_0x17a2f2(0x227),'body':_0x17a2f2(0x205)+_0x17a2f2(0x210),'thumbnailUrl':'','thumbnail':log0,'mediaType':0x4,'mediaUrl':'','sourceUrl':srepo}}};await bot[_0x17a2f2(0x226)+'e'](citel[_0x17a2f2(0x204)],Maher_Zubair_repo,{'quoted':citel});}catch(_0x1de2fb){citel[_0x17a2f2(0x21f)](_0x17a2f2(0x206)+_0x17a2f2(0x1f6)+_0x17a2f2(0x21c)+_0x17a2f2(0x1ff)+_0x17a2f2(0x207)+_0x17a2f2(0x223));}function _0x21e6(_0x421991,_0x57ff05){const _0x40bbef=_0x76ee();return _0x21e6=function(_0x37233c,_0x260c3c){_0x37233c=_0x37233c-(0x1591+-0x5a8+0x1*-0xdfc);let _0x446ef7=_0x40bbef[_0x37233c];return _0x446ef7;},_0x21e6(_0x421991,_0x57ff05);}function _0x76ee(){const _0x49bdb4=['59598aMHjfJ','https://ap','ʀ\x0a┗━━━━━━━','┏━━⟪⟪\x20','forks_coun','GITHUB_\x0a*•','e\x20or\x20It\x20is','•ᴅᴇᴠᴇʟᴏᴘᴇʀ','ᴠᴇʀsɪᴏɴ•*\x20','send','/SIGMA-MD_','8500KulCew','sɪɢᴍᴀ\x20ᴹᴰ-ʀ','e\x20Moment_*','om/repos/M','━━━⦿\x0a*•𝚁𝙴𝙻','sendMessag','ᴇᴘᴏ','tp://lnkiy','get','12124TOWVxf','*•ꜰᴏʀᴋs•*\x20','_count','𝟶𝟸𝟹_\x0a*•𝚁𝙴𝙿','\x20ꜰᴏʀᴋs\x0a┃✗\x20','•*\x20ᴍ\x20ᴢᴜʙᴀɪ','•*\x0a_𝟷/𝟷𝟶/𝟸','41954AhhGtu','9967662HuGaSN','\x20is\x20Privat','\x20sᴛᴀʀs\x0a┃✗\x20','134raMvzf','𝙾•*\x0a_http:','256eRmEZF','\x20ᴍs\x20\x0a┃✗\x20*•','aher-Zubai','//lnkiy.in','toFixed','\x20Not\x20Avail','𝙴𝙰𝚂𝙴𝙳\x20𝙳𝙰𝚃𝙴','.in/Innoxe','sᴛᴀʀs•*\x20','170405RdGKkI','chat','ᴛᴀᴘ\x20ʜᴇʀᴇ\x20ꜰ','*_The\x20Repo','able\x20at\x20Th','sɪɢᴍᴀ\x0a┃✗\x20*','\x20⟫━⦿\x0a┃✗\x20*•','stargazers','*•sᴘᴇᴇᴅ•*\x20','footer','nt-yt_\x0a\x0a','3348632hAfLff','4154OquLcm','ᴏʀ\x20ʀᴇᴘᴏ','r/SIGMA-MD','𝚅𝙸𝚂𝙸𝚃\x20𝙵𝙾𝚁\x20','𝙷𝙴𝙻𝙿•*\x0a_ht','5472EfXVEo','i.github.c'];_0x76ee=function(){return _0x49bdb4;};return _0x76ee();}
 
 }
 )
 
 Module_Exports({
-        kingcmd: "yt",
-        shortcut: ["ytube", "link", "myyt"],
-        infocmd: "Sends info about My Ytube Channel CheckOut : https://www.youtube.com/@InnoxentTech",
-        kingclass: "developer",
-        kingpath: __filename,
-    },
-    async(Void, citel) => {
-       
-	let zubi_yt = `
+  kingcmd: "yt",
+  shortcut: ["ytube", "link", "myyt"],
+  infocmd: "Sends info about My Ytube Channel CheckOut : https://www.youtube.com/@InnoxentTech",
+  kingclass: "developer",
+  kingpath: __filename,
+},
+async(Void, citel) => {
+ 
+let zubi_yt = `
 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐌𝐘 𝐂𝐇𝐀𝐍𝐍𝐄𝐋
 
 *•𝙲𝙾𝙽𝚃𝙴𝙽𝚃•* How To Create Whatsapp Bot
 *•𝚃𝙾𝚃𝙰𝙻 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴𝚁𝚂•* 0 Subs😥
-*•𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙻𝙸𝙽𝙺•* _https://www.youtube.com/@InnoxentTech?sub_confirmation=1_
-`
-	
-	
-        let buttonMessaged = 
-            {
-            image: { url: await botpic() },
-            caption: zubi_yt,
-            footer: tlang().footer,
-            headerType: 4,
-             contextInfo: {
-              externalAdReply: {
-                  title: `Innoxent Tech`,
-                  body: `Subscribe My YT`, 
-                  thumbnail: log0,
-                  mediaType: 4,
-                  mediaUrl: "",
-                  sourceUrl: `https://www.youtube.com/@InnoxentTech?sub_confirmation=1`,
-              },
-          },
-            };
-           
-        return await Void.sendMessage(citel.chat, buttonMessaged, {   quoted: citel, });
+*•𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙻𝙸𝙽𝙺•*
+_http://lnkiy.in/Innoxent-yt_
 
-    }
+${scap}`
+
+
+  let buttonMessaged = 
+      {
+      image: { url: await botpic() },
+      caption: zubi_yt,
+      footer: tlang().footer,
+      headerType: 4,
+       contextInfo: {
+        externalAdReply: {
+            title: `ɪɴɴᴏxᴇɴᴛ ᴛᴇᴄʜ`,
+            body: `sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴛ`, 
+            thumbnail: devp,
+            mediaType: 4,
+            mediaUrl: "",
+            sourceUrl: zyt,
+        },
+    },
+      };
+     
+  return await Void.sendMessage(citel.chat, buttonMessaged, {   quoted: citel, });
+
+}
 )
+
 
 //---------------------------------------------------------------------------
 Module_Exports({
@@ -234,7 +209,7 @@ async(sigma, person) => {
               thumbnail: log0,
               mediaType: 2,
               mediaUrl: "",
-              sourceUrl: ``,
+              sourceUrl: zyt,
           },
       },
   };
@@ -316,7 +291,7 @@ async(bot, man,write,{isCreator}) => {
 
 if(!isCreator) return man.reply(tlang().owner);
 let SIGMA_THEMES=`┏━━⟪⟪ ${mztit} ⟫━⦿ \n┃✗ *ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ*\n┃✗ *ᴛʜᴇᴍᴇs ɪɴ sɪɢᴍᴀ ᴹᴰ*\n`
-SIGMA_THEMES+=`┃✗ SHELBY\n┃✗ JOKER\n┃✗ PATRICK\n┃✗ SIGMA_MD\n┃✗ AVENGERS\n┃✗ BTS\n┃✗ ANIME\n┃✗ MOMOLAND\n┃✗ ADAM\n┃✗ AYANOKOJI\n┃✗ EDITH\n┃✗ FRIDAY\n┃✗ GENOS\n┃✗ GIDEON\n┃✗ GOKU\n┃✗ LUFFY\n┃✗ NARUTO\n┃✗ NEZUKO\n┃✗ PARKER\n┃✗ MZ\n┃✗ ${prefix}setvar THEME:BTS\n┗━━━━━━━━━━⦿`
+SIGMA_THEMES+=`┃✗ SHELBY\n┃✗ JOKER\n┃✗ PATRICK\n┃✗ SIGMA_MD\n┃✗ AVENGERS\n┃✗ BTS\n┃✗ ANIME\n┃✗ GOJO\n┃✗ MOMOLAND\n┃✗ ADAM\n┃✗ AYANOKOJI\n┃✗ EDITH\n┃✗ FRIDAY\n┃✗ GENOS\n┃✗ GIDEON\n┃✗ GOKU\n┃✗ LUFFY\n┃✗ NARUTO\n┃✗ NEZUKO\n┃✗ PARKER\n┃✗ ${prefix}setvar THEME:BTS\n┗━━━━━━━━━━⦿`
 return man.reply(SIGMA_THEMES)
   
 }

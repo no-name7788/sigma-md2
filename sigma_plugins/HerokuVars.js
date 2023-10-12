@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   MULTI-DEVICE WHATSAPP BOT                                          //
 //                                                                                                      //
-//                                         v：1．0．0                                                   // 
+//                                            𝚅.𝟷.𝟸.𝟽                                                   // 
 //                                                                                                      //
 //              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
 //              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
@@ -155,7 +155,7 @@ Module_Exports({
 async(Void, citel , text,{ isCreator }) => {
 
      if (!isCreator) return citel.reply(tlang().owner);
-if (!text) return citel.reply (`*_Give me Var Name_*\n*Ex : ${prefix}addvar CAPTION: Powered By Maher Zubair*`);
+if (!text) return citel.reply (`*_Give me Var Name_*\n*_Ex : ${prefix}addvar CAPTION: Powered By Maher Zubair_*`);
 const headers = 
         {
                  'Accept': 'application/vnd.heroku+json; version=3',
@@ -164,7 +164,7 @@ const headers =
         };
 const varName = text.split(":")[0].toUpperCase();
 const newVarValue = text.split(":")[1]; 
-if (!newVarValue) return citel.reply (`Please give me Value After ':' \n*Example : ${prefix}setvar AUTO_READ_STATUS:true*`);   
+if (!newVarValue) return citel.reply (`_Please give me Value After_ ':' \n*_Example : ${prefix}setvar AUTO_READ_STATUS:true_*`);   
 fetch(`https://api.heroku.com/apps/${appName}/config-vars`,
         {
                    method: 'PATCH',
@@ -172,7 +172,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`,
                    body: JSON.stringify({ [varName.toUpperCase()]: newVarValue })
         })
   .then(response => response.json())
-  .then(data => {  return citel.reply(`*${varName} updated Succesfully.*\n${varName}  :  ${newVarValue}`);   })
+  .then(data => {  return citel.reply(`*_${varName} Added SuccessFully._*\n*_New ${varName} ➪ ${newVarValue}_*`);   })
   .catch(error => citel.reply('Error Adding app variable:'));
   });
 //-----------------------------------------------------------------------------------

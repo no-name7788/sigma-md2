@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   MULTI-DEVICE WHATSAPP BOT                                          //
 //                                                                                                      //
-//                                         v：1．0．0                                                   // 
+//                                            𝚅.𝟷.𝟸.𝟽                                                   // 
 //                                                                                                      //
 //              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
 //              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
@@ -47,7 +47,7 @@ Module_Exports({
  
         if (!isCreator) return citel.reply(tlang().owner)
       // if(!text) return await citel.reply("*_Uhh Please, Provide Me Plugin Url_*")
-        let allmodtext = `*All External Installed Modules in ${name.botname}:*\n\n`
+        let allmodtext = `*All External Installed Modules in ${snam}:*\n\n`
         allmodtext += await plugins()
         return await citel.reply(allmodtext)
 
@@ -69,18 +69,18 @@ Module_Exports({
         if(text==='alls') 
         { 
          await plugindb.collection.drop() ; 
-         return citel.reply(`Deleted All Plugins From ${name.botname}`) ;  
+         return citel.reply(`Deleted All Plugins From ${snam}`) ;  
         }
  try 
  {
         let kill = await remove(text.split(" ")[0])
         delete require.cache[require.resolve(__dirname+"/" + text + ".js")];
         fs.unlinkSync(__dirname + "/" + text+ ".js");
-        await citel.reply(`*_${kill}_* \n*Please Wait, ${name.botname} Restarting*`)
+        await citel.reply(`*_${kill}_* \n*Please Wait, ${snam} Restarting*`)
         const { exec } = require("child_process")
         exec('pm2 restart all')  
  }
- catch (e) {return await citel.reply(`*_That Plugin not Found in ${name.botname}_*`)}
+ catch (e) {return await citel.reply(`*_That Plugin not Found in ${snam}_*`)}
  })
 
 //---------------------------------------------------------------------------

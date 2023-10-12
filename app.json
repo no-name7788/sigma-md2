@@ -6,13 +6,13 @@
   "success_url": "/",
   "stack": "container",
 "env": {
-  "OWNER_NAME": { 
+  "OWNER_NAME": {
   "description": "Name of Bot Owner",
       "value": "Maher Zubair"
   },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL Image for bot.",
-     "value": "https://telegra.ph/file/e5768d0b5a4441b4e576b.jpg"
+     "value": "https://telegra.ph/file/03e49e6e2057568db8926.jpg"
     },
  "HEROKU_API_KEY": {
     "description": "Put Your Heroku Api Key Here",

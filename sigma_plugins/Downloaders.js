@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   MULTI-DEVICE WHATSAPP BOT                                          //
 //                                                                                                      //
-//                                         v：1．0．0                                                   // 
+//                                            𝚅.𝟷.𝟸.𝟽                                                   // 
 //                                                                                                      //
 //              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
 //              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
@@ -143,6 +143,7 @@ function _0xda55(_0x28fa32,_0x5445d5){const _0x52cbbf=_0x405c();return _0xda55=f
 },
 async(sigma, person, memo) => {
     if (!memo) return person.reply(`_Give me text to change into audio_\nEx: ${prefix}tts i am SIGMA MALE`)
+    person.reply("*_Converting Your Text To Voice..._*")
     let memotts = memo
     const ttsurl = googleTTS.getAudioUrl(memotts, {
         lang: "en",
@@ -200,19 +201,19 @@ async(sigma, person, memo) => {
                     jpegThumbnail: log0,
         
                     mimetype: 'video/mp4',
-                    caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`,
+                    caption: sgen,
         height: 640,
                     width: 780,
                     headerType: 4,
                     contextInfo: {
                         externalAdReply: {
-                            title: `${name.ownername}`,
-                            body: ``,
+                            title: snam,
+                            body: `ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
                             thumbnail: await getBuffer(search.all[0].thumbnail),
                             renderLargerThumbnail: true,
                             mediaType: 4,
                             mediaUrl: ``,
-                            sourceUrl: `${waUrl}`,
+                            sourceUrl: zyt,
                         }
                     }
                 }
@@ -263,19 +264,19 @@ async(sigma, person, memo) => {
             let buttonMessage = {
                 audio: fs.readFileSync(`./${randomName}`),
                 mimetype: 'audio/mpeg',
-                caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`,
+                caption: sgen,
                 fileName: titleYt + ".mp3",
                 headerType: 4,
                 contextInfo: {
                     externalAdReply: {
-                        title: `${name.ownername}`,
-                        body: ``,
+                        title: snam,
+                        body: `sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
                         renderLargerThumbnail: true,
                         thumbnailUrl: search.all[0].thumbnail,
                         mediaUrl: tax,
                         mediaType: 1,
                         thumbnail: await getBuffer(search.all[0].thumbnail),
-                        sourceUrl: `${waUrl}`,
+                        sourceUrl: zyt,
                         
                     },
                 },
@@ -303,6 +304,7 @@ Module_Exports({
         },
         async(bot, citel, tax) => {
             if (!tax) return citel.send(`*Give A Number Example: ${prefix}music 3*`)
+            citel.reply('*𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶:* '+tax)
 	const n = parseInt(tax);
 	if(n.toString()=="NaN" || n < 1 || n > 160 ) return citel.reply('```Give Number From 1 to 160```');
 	   let url = `https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/sound${n.toString()}.mp3`
@@ -316,12 +318,13 @@ Module_Exports({
         headerType: 4,
         contextInfo: {
             externalAdReply: {
-                title: `${name.ownername}`,
-                thumbnail: log0,
+                title: snam,
+                body: `ᴍᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
+                //thumbnail: log0,
                 mediaType: 2,
 
 
-                sourceUrl: `${waUrl}`,
+                sourceUrl: zyt,
                 
             },
         },
@@ -339,6 +342,7 @@ Module_Exports({
         },
         async(bot, citel, tax) => {
             if (!tax) return citel.send(`Example: ${prefix}ringtone bella ciao`)
+            citel.reply('*𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶:* '+tax)
 	    const {ringtone } = require('../lib/scraper')
             let anu = await ringtone(tax)
         let buttonMessage = {
@@ -349,12 +353,13 @@ Module_Exports({
         headerType: 4,
         contextInfo: {
             externalAdReply: {
-                title: `${name.ownername}`,
+                title: snam,
+                body: `ʀɪɴɢᴛᴏɴᴇ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
                 thumbnail: log0,
                 mediaType: 2,
 
 
-                sourceUrl: `${waUrl}`,
+                sourceUrl: zyt,
                 
             },
         },
@@ -371,28 +376,29 @@ Module_Exports({
         use: '<text|image name>',
     },
     async(Void, citel, text) => {
-        if (!text) return citel.send(`What picture are you looking for?`) && Void.sendMessage(citel.chat, { react: {  text: '❌', key: citel.key  }  })
+        if (!text) return citel.send(`What picture are you looking for?`)
+        citel.reply('*𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶:* '+text)
         try {
             let anu = await pinterest(text)
             let result = anu[Math.floor(Math.random() * anu.length)]
             let buttonMessage = {
                 image: { url: result },
-                caption: name.caption ,
+                caption: sgen ,
                 //footer: tlang().footer,
                 headerType: 4,
                 contextInfo: {
                     externalAdReply: {
-                        title: `Here it is✨`,
-                        body: `${name.ownername}`,
+                        title: snam,
+                        body: `ᴘɪɴᴛᴇʀᴇsᴛ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
                         thumbnail: log0,
                         mediaType: 2,
                         mediaUrl: ``,
-                        sourceUrl: `youtube.com/c/SuhailTechInfo`
+                        sourceUrl: zyt
                     }
                 }
             }
             return Void.sendMessage(citel.chat, buttonMessage, {  quoted: citel })
-        } catch (e) {  return citel.reply("Uhh Plese, Give me a Name. Ex .pint apple")  }
+        } catch (e) {  return citel.reply(`*_Give Me Query_*\n*_Ex ${prefix}pint crown_*`)  }
     })
     //---------------------------------------------------------------------------
 Module_Exports({
@@ -477,19 +483,19 @@ let result4 = ` *Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
             let buttonMessage = {
                 document: fs.readFileSync(`./${randomName}`),
                 mimetype: 'audio/mpeg',
-                caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`,
+                caption: sgen,
                 fileName: titleYt + ".mp3",
                 headerType: 4,
                 contextInfo: {
                     externalAdReply: {
-                        title: `${name.ownername}`,
-                        body: ``,
+                        title: snam,
+                        body: `ᴀᴜᴅɪᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
                         renderLargerThumbnail: true,
                         thumbnailUrl: search.all[0].thumbnail,
                         mediaUrl: tax,
                         mediaType: 1,
                         thumbnail: await getBuffer(search.all[0].thumbnail),
-                        sourceUrl: `${waUrl}`,
+                        sourceUrl: zyt,
                         
                     },
                 },
@@ -554,6 +560,7 @@ Module_Exports({
                 citel.reply("*_Give ME YouTube Link_*");
                 return;
             }
+            citel.reply('*𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶:* '+text)
             try {
                 let urlYt = text;
                 if (!urlYt.startsWith("http")) return citel.reply("*_Plz Give ME YouTube Link_*");
@@ -580,21 +587,21 @@ Module_Exports({
                         video: fs.readFileSync(`./${randomName}`),
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
-                        caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`,
+                        caption: sgen,
                         height:640,
                         width:780,
                         fileName: `${titleYt}.mp4`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
-                                title: `${name.ownername}`,
-                                body: `${name.botname}`,
+                                title: snam,
+                                body: `ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
                                 //thumbnailUrl: await getBuffer(search.all[0].thumbnail),
-                                renderLargerThumbnail: true,
+                                //renderLargerThumbnail: true,
                                 mediaType: 2,
                                 mediaUrl: ``,
                                 thumbnail:log0,
-                                sourceUrl: waUrl
+                                sourceUrl: zyt
                             }
                         }
                     }
@@ -632,6 +639,7 @@ Module_Exports({
                 citel.reply(`_Idiot Give YouTube Link_!`);
                 return;
             }
+            citel.reply('*𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶:* '+text)
             let infoYt = await ytdl.getInfo(urlYt);
             //30 MIN
             if (infoYt.videoDetails.lengthSeconds >= videotime) {
@@ -658,19 +666,19 @@ Module_Exports({
                 let buttonMessage = {
                     audio: fs.readFileSync(`./${randomName}`),
                     mimetype: 'audio/mpeg',
-                    caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`,
+                    caption: sgen,
                     fileName: titleYt + ".mp3",
                     headerType: 4,
                     contextInfo: {
                         externalAdReply: {
-                            title: `${name.ownername}`,
-                            body: `‌${name.botname}`,
-                            renderLargerThumbnail: true,
+                            title: snam,
+                            body: `sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
+                           // renderLargerThumbnail: true,
                             thumbnail: log0,
                             mediaUrl: text,
                             mediaType: 1,
                             //thumbnailUrl: log0,
-                            sourceUrl: `${waUrl}`,
+                            sourceUrl: zyt,
                         },
                     },
                 }
@@ -710,6 +718,7 @@ Module_Exports({
                 citel.reply(`_Idiot Give YouTube Link_`);
                 return;
             }
+            citel.reply('*𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶:* '+text)
             let infoYt = await ytdl.getInfo(urlYt);
             //30 MIN
             if (infoYt.videoDetails.lengthSeconds >= videotime) {
@@ -736,19 +745,19 @@ Module_Exports({
                 let buttonMessage = {
                     document: fs.readFileSync(`./${randomName}`),
                     mimetype: 'audio/mpeg',
-                    caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`,
+                    caption: sgen,
                     fileName: titleYt + ".mp3",
                     headerType: 4,
                     contextInfo: {
                         externalAdReply: {
-                            title: `${name.ownername}`,
-                            body: `‌${name.botname}`,
-                            renderLargerThumbnail: true,
+                            title: snam,
+                            body: `‌ᴀᴜᴅɪᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
+                            //renderLargerThumbnail: true,
                             //thumbnailUrl: search.all[0].thumbnail,
                             mediaUrl: text,
                             mediaType: 1,
-                            thumbnail: log0,
-                            sourceUrl: `${waUrl}`,
+                           // thumbnail: log0,
+                            sourceUrl: zyt,
                         },
                     },
                 }
