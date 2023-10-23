@@ -56,7 +56,7 @@
 2. ***Click [`FORK`](https://github.com/Maher-Zubair/SIGMA-MD/fork)***
 3. ***Get SESSION ID  by [`Scanning QR Code`](https://replit.com/@Mehar-Zubair/SIGMA-MD?v=1). `Whatapp>Three dots>Linked Devices`***
 4. ***Get a Mongodb url From [`Mongodb,`](https://account.mongodb.com/)  Watch Tutorial  [`How To Get MongoDB Url`](https://youtu.be/HNj76uDT-uc?si=ObIoNZoP5gSZ8bSF).***
-5. ***Deploy on [`Heroku,`](http://lnkiy.in/SIGMA-MD-DEPLOY)  Watch Tutorial 
+5. ***Deploy on [`Heroku,`](https://sigma-k-a16f6d21ed42.herokuapp.com/heroku.html)  Watch Tutorial 
  [`How To Deploy on Heroku`](https://youtu.be/7hhuzIkhVfE).***
 6. ***Deploy FREE on `Codespace,`  Watch Tutorial  [`How To Deploy on Codespace`](https://youtu.be/q59Fyn0Dq_k)***
 7. ***Deploy on [`Replit,`](https://replit.com/github/Maher-Zubair/SIGMA-MD)  Watch Tutorial  [`How To Deploy on Replit`](https://youtu.be/Ax4nO5PIHFA).***
