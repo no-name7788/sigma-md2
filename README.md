@@ -54,7 +54,7 @@
 ## `𝘋𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵 𝘔𝘦𝘵𝘩𝘰𝘥𝘴`
 1. ***Star⭐ The Repository First***
 2. ***Click [`FORK`](https://github.com/Maher-Zubair/SIGMA-MD/fork)***
-3. ***Get SESSION ID  by [`Scanning QR Code`](https://replit.com/@Mehar-Zubair/SIGMA-MD?v=1). `Whatapp>Three dots>Linked Devices`***
+3. ***Get SESSION ID  by [`Scanning QR Code`](https://replit.com/@SIGMA-Zubi/SIGMA-MD-QR?v=1). `Whatapp>Three dots>Linked Devices`***
 4. ***Get a Mongodb url From [`Mongodb,`](https://account.mongodb.com/)  Watch Tutorial  [`How To Get MongoDB Url`](https://youtu.be/HNj76uDT-uc?si=ObIoNZoP5gSZ8bSF).***
 5. ***Deploy on [`Heroku,`](https://mkk-eta.vercel.app/heroku.html)  Watch Tutorial 
  [`How To Deploy on Heroku`](https://youtu.be/7hhuzIkhVfE).***
